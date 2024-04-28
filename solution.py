@@ -17,7 +17,7 @@ def make_quad(quad_1, quad_2, quad_3, quad_4):
         "Quad 4": [names[quad] for quad in quad_4],
     })
 
-
+# The order of the weeks is irrelevant
 print("\nWeek 1")  # Horizontal
 print(make_quad([0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11], [12, 13, 14, 15]))
 
